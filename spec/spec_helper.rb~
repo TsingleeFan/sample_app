@@ -32,7 +32,7 @@ RSpec.configure do |config|
 end
 
 def full_title(page_title)
-  # Combin the base title with the page title to a full title
+  #Combin the base title with the page title to a full title
   base_title = "Ruby on Rails Tutorial Sample App"
   if page_title.empty?
      base_title
